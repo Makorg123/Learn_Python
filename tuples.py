@@ -1,13 +1,13 @@
-Python 3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)] on win32
-Type "help", "copyright", "credits" or "license()" for more information.
 # Tuples is an ordered collection of values, tuples are immutable(unchangeable).
 T = (1, 'abc', 1.23, True)
 T
 (1, 'abc', 1.23, True)
+
 # Singleton Tuple
 T = (3,)
 type(T)
 <class 'tuple'>
+
 T = (3)
 type(T)
 <class 'int'>
@@ -18,6 +18,7 @@ type(T)
 <class 'tuple'>
 print(T)
 (1, 2, 3)
+
 #Convert a string into tuple
 T = tuple('abc')
 print(T)
@@ -47,11 +48,7 @@ blue
 
 #Tuple usage. Split an email into a user name and a domain.
 addr = 'bob@python.org'
-user,domain = add.split('@')
-Traceback (most recent call last):
-  File "<pyshell#32>", line 1, in <module>
-    user,domain = add.split('@')
-NameError: name 'add' is not defined. Did you mean: 'addr'?
+
 user,domain = addr.split('@')
 print(user)
 bob
