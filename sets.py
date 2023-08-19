@@ -1,5 +1,3 @@
-Python 3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)] on win32
-Type "help", "copyright", "credits" or "license()" for more information.
 # python sets: unordered collection of unique items. commonly used for computing mathematical opeation such as union, intersection, difference, and symmetric difference.
 
 # Sets are: unordered, changeable(mutable), unindexed, items are unique.
@@ -145,13 +143,13 @@ B = {'yellow','red','orange'}
 >>> # by operator
 >>> print(A&B)
 {'red'}
->>> 
+
 >>> # by method.
 >>> print(A.intersection(B))
 {'red'}
 >>> 
 >>> # Set Difference.
->>> 
+
 >>> #by operator
 >>> print(A-B)
 {'green', 'blue'}
