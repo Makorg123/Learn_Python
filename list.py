@@ -135,7 +135,7 @@ Traceback (most recent call last):
 NameError: name 'l' is not defined. Did you mean: 'L'?
 l = L
      
-l
+print(l)
      
 ['a', 'b', ['cc', 'dd', ['eee', 'fff']], 'g', 'h']
 l[2]
